@@ -23,5 +23,5 @@ model_gemini = OpenAIChatCompletionsModel(
 config = RunConfig(
     model = model_gemini,
     model_provider=external_client,
-    # tracing_disabled=True
+    tracing_disabled=True
 )
